@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+        <meta charset=""UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KWIC</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./kwic.js" defer></script>
+    </head>
+    <body>
+        <h1 class="head1"> Key World In Context System </h1>
+        <div id="input">
+            <label for="inputKWIC">Input:</label>
+            <textarea type="text" id="inputKWIC" name="inputKWIC"></textarea>
+        </div>
+        
+        <div id="output">
+            <label for="result">Output:</label><input id="outputKWIC" type="textbox" name="result"></input>
+        </div>
+        
+        <div id="buttons">
+            <button onclick="compute()">Compute</button>
+            <button onclick="resetInput()">Reset Input</button>
+            <button onclick="resetOutput()">Reset Output</button>
+        </div>
+    </body>
+</html>
